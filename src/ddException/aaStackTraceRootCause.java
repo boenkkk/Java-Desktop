@@ -17,12 +17,12 @@ public class aaStackTraceRootCause {
 	}
 
 	public void methodKeempat() {
-		//try {
+		try {
 			System.out.println("method keempat dipanggil");
 			methodKelima();
-		/*} catch (Exception e) {
+		} catch (Exception e) {
 			e.printStackTrace();
-		}*/
+		}
 	}
 
 	public void methodKelima() {
