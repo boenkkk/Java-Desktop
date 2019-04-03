@@ -8,8 +8,7 @@ public class bbToString {
 	
 	public static void main(String[] args) {
 		bbToString test = new bbToString();
-		System.out.println("implementasi toString dari class Object " +
-		"menghasilkan : " + test);
+		System.out.println("implementasi toString dari class Object menghasilkan : " + test);
 	}
 	
 }
