@@ -3,6 +3,7 @@ package ggCollection;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 
 public class eeList {
 	
@@ -23,6 +24,13 @@ public class eeList {
 		//2
 		for(String s:list){
 			System.out.println("Print cara 2 : "+s);
+		}
+		
+		//3
+		Iterator<String> itr = list.iterator();
+		while (itr.hasNext()) {
+			System.out.println("Print cara 3 : "+itr.next());
+			
 		}
 		
 		//sorting
