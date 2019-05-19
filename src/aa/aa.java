@@ -11,7 +11,6 @@ public class aa {
 			cc = aa/bb;
 			System.out.println(cc);
 		} catch (Throwable e) {
-			// TODO: handle exception
 			System.out.print("ERROR BOS : ");
 			System.out.println(e.getMessage());
 		} finally {
