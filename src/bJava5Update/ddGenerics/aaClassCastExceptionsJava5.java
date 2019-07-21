@@ -10,7 +10,7 @@ public class aaClassCastExceptionsJava5 {
 		//Menggunakan Generics
 		Collection<String> lists = new ArrayList<String>();
 		lists.add("A");
-		lists.add(1); //langsung error karena yg dimasukkan bukan String
+		//lists.add(1); //langsung error karena yg dimasukkan bukan String
 		Iterator<String> itr = lists.iterator();
 		while(itr.hasNext()) {
 			String current = (String) itr.next();

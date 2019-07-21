@@ -2,7 +2,7 @@ package aPengenalanJava.ccFlowControl;
 
 public class bbSwitchCase {
 	public static void main(String[] args){
-		int x = 5;
+		int x = 4;
 		switch(x){
 		case 1 :
 			System.out.println("satu");

@@ -1,5 +1,7 @@
 package bJava5Update.eeAnnotations;
 
+import junit.framework.TestCase;
+
 public class aaPerson extends TestCase{
 
 	public aaPerson(String testName) {
